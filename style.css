@@ -1,0 +1,330 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: white;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  padding: 12px 24px 12px 24px;
+  font-size: 1.9rem;
+  letter-spacing: 0.05rem;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 32px;
+}
+
+header img {
+  max-height: 100px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+p {
+  line-height: 160%;
+  letter-spacing: 0.1rem;
+  font-size: 1.8rem;
+}
+
+section.hero h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 5rem;
+  letter-spacing: 0em;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  max-width: 670px;
+}
+
+section.get-to-know h2 {
+  font-size: 3rem;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: unset;
+  font-size: 2rem;
+  letter-spacing: normal;
+  line-height: 120%;
+  text-transform: uppercase;
+  max-width: 400px;
+  margin-top: 0;
+}
+
+section.our-students h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  max-width: 400px;
+}
+
+main section.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/106922887-1628206615260-gettyimages-887132600-as1700__08.jpg);
+  background-size: cover;
+  color: white;
+  min-height: 750px;
+  padding: 230px 80px 83px 80px;
+}
+
+main section.get-to-know {
+  background-color: #f8f9f9;
+  display: flex;
+  padding: 90px 80px 90px 80px;
+}
+
+main section.get-to-know div.get-to-know-content {
+  text-align: left;
+  margin-left: 50px;
+}
+
+div.get-to-know-btn a.get-to-know-btn-1 {
+  border: 1px solid #2b2f2f;
+  border-radius: 400px;
+  padding: 15px 30px 12px;
+  background-color: #2b2f2f;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+div.get-to-know-btn a.get-to-know-btn-1:hover {
+  background-color: white;
+  color: #2b2f2f;
+  border: #2b2f2f solid 1px;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+div.get-to-know-btn a.get-to-know-btn-2 {
+  border: 1px solid #2b2f2f;
+  border-radius: 400px;
+  padding: 15px 30px 12px;
+  background-color: none;
+  color: #2b2f2f;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+div.get-to-know-btn a.get-to-know-btn-2:hover {
+  background-color: #2b2f2f;
+  color: white;
+  border: #2b2f2f solid 1px;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+main section.get-to-know img {
+  margin-left: 100px;
+  border-radius: 20px;
+  max-height: 400px;
+}
+
+main section.get-to-know p {
+  margin-bottom: 40px;
+}
+
+main section.our-students {
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section.our-students img {
+  max-width: 500px;
+  border-radius: 15px;
+  margin: 0px 10px 0px 10px;
+}
+
+main section div.student-profiles {
+  display: flex;
+  justify-content: center;
+  padding: 20px 80px 0px 80px;
+}
+
+main section div.student-profiles p {
+  text-align: left;
+  padding: 0px 20px 0px 15px;
+  line-height: 150%;
+  font-size: 1.9rem;
+}
+
+main section.application {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9f9;
+  padding: 50px;
+}
+
+main section.application p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9f9;
+  line-height: 140%;
+  font-size: 1.9rem;
+  max-width: 1000px;
+  min-width: 200px;
+  margin-bottom: 40px;
+}
+
+a.apply-btn {
+  border: 1px solid #4c63ff;
+  border-radius: 400px;
+  padding: 15px 30px 12px;
+  background-color: #4c63ff;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+a.apply-btn:hover {
+  background-color: white;
+  color: #4c63ff;
+  border: #4c63ff solid 1px;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+footer div.footer-container {
+  background-color: #4c63ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  height: 436px;
+  color: white;
+}
+
+footer div.footer-p-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+
+footer div.footer-p-left a {
+  border: solid 1px white;
+  padding: 15px 30px 12px;
+  border-radius: 400px;
+}
+
+footer div.footer-container div span {
+  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  padding: 20px 20px 40px 0px;
+}
+
+footer div.footer-menu-links {
+  display: flex;
+  width: 500px;
+}
+
+footer div.footer-links-1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+footer div.footer-links-1 a {
+  margin-bottom: 20px;
+}
+
+footer div.footer-menu-links a:hover {
+  opacity: 50%;
+  transition: all 300ms;
+}
+
+footer div p.footer-links-headline {
+  font-weight: 800;
+}
+
+footer div.footer-links-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+footer div.footer-links-2 a {
+  margin-bottom: 26px;
+}
+
+footer div.footer-links-2 p {
+  margin-bottom: 10px;
+}
+
+footer div.footer-menu-links p {
+  margin-top: 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.9rem;
+}
+
+footer div.footer-p-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px 20px 20px;
+}
+
+i {
+  font-size: 3.5rem;
+  padding: 10px;
+}
+
+i:hover {
+  opacity: 50%;
+  transition: all 300ms;
+}
+
+footer div.logotype img {
+  width: 150px;
+}
